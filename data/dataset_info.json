@@ -8,6 +8,10 @@
   "alpaca_zh_demo": {
     "file_name": "alpaca_zh_demo.json"
   },
+  "NuminaMath-CoT": {
+    "file_name": "NuminaMath-CoT.json",
+    "formatting": "sharegpt"
+  },
   "glaive_toolcall_en_demo": {
     "file_name": "glaive_toolcall_en_demo.json",
     "formatting": "sharegpt",

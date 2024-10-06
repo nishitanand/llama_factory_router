@@ -57,7 +57,7 @@ def _parse_args(parser: "HfArgumentParser", args: Optional[Dict[str, Any]] = Non
     if args is not None:
         return parser.parse_dict(args)
 
-    if len(sys.argv) == 2 and (sys.argv[1].endswith(".yaml") or sys.argv[1].endswith(".yml")):
+    if len(sys.argv) == 2 and sys.argv[1].endswith(".yaml"):
         return parser.parse_yaml_file(os.path.abspath(sys.argv[1]))
 
     if len(sys.argv) == 2 and sys.argv[1].endswith(".json"):
